@@ -50,18 +50,18 @@
         }
       });
 
-	 window.addEventListener("orientationchange", function () {
-		var orientation = window.orientation;
+	//  window.addEventListener("orientationchange", function () {
+	// 	var orientation = window.orientation;
 
-		if (orientation === 90 || orientation === -90) 
-		{
-			alert("Landscape orientation is not supported");
+	// 	if (orientation === 90 || orientation === -90) 
+	// 	{
+	// 		alert("Landscape orientation is not supported");
 
-			setTimeout(function () {
-				window.screen.orientation.lock("portrait-primary");
-			}, 100);
-		}
-	});
+	// 		setTimeout(function () {
+	// 			window.screen.orientation.lock("portrait-primary");
+	// 		}, 100);
+	// 	}
+	// });
 
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
